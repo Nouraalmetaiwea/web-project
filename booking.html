@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+     <nav>
+  <a href="home.html">Home</a>
+  <a href="about us.html">About</a>
+  <a href="our horses.html">Our Horses</a>
+  <a href="lessons.html">Lessons</a>
+  <a href="booking.html">Booking</a>
+  <a href="whoami.html">who am i</a>
+</nav>
+
+    <br> 
+    <br>
+    <br>
+    <br> 
+    <br>
+    <h1> Book your riding lesson </h1>
+    
+    <br> 
+    <br>
+    <br>
+    <br> 
+
+    <form> 
+        <div>
+
+ <label for="fname"  > First Name </label > 
+        <input type = " text " id="fname" name="name" placeholder="your name" required>
+          <label for="lname" > Last name </label>
+        <input type="text" id="lname" name="name" placeholder="your name again" required>
+    
+      
+        </div>
+
+        <br> 
+
+        <div>
+
+        <label for="em" > Email  </label>
+    <input type ="email" id="em"  name="email" placeholder="horse@gmail.com" required>
+
+    <label for="tel" > phone number </label>
+        <input type="text" id="tel" name="telephone" placeholder="+96655********" required>
+
+    </div>
+<br>
+     <div> 
+
+     <label for="old" > Age </label>
+     <input type="number" id="old" name="age" placeholder="Choose your age " required>  
+     </div>
+     <br>
+     <div>
+        <label> Choose Your Gender :</label>
+    <label for="gen"> Female </label>
+    <input type="radio" id="gen" name="genderrvl" value="gen" >
+    <label for="gan"> Male </label>
+    <input type="radio" id="gan" name="genderrvl" value="gan" >
+    </div>
+    <br>
+<div>
+        <label> Choose Your Level :</label>
+    <label for="basic"> Begginner </label>
+    <input type="radio" id="basic" name="levels" value="basic" >
+    <label for="meduim"> Intermediate </label>
+    <input type="radio" id="meduim" name="levels" value="meduim" >
+    <label for="high"> Advanced </label>
+    <input type="radio" id="high" name="levels" value="advanced" >
+    
+    </div>
+    <br>
+    <div>
+    <label for="les" > Choose Your Preferd Lesson  </label> <br>
+    <select id="les" name="lesson"> 
+    <option value="beg">First time experience</option>
+        <option value="int">Show jumping training</option>
+        <option value="adv">Basic training </option>
+        <option value="av">Endurance training </option>
+        <option value="dv">dressage training </option>
+      </select>
+
+    </div>
+    <br><br>
+      <div>
+      <label for="note">Notes (optional):</label>
+      <br>
+      <textarea id="note" name="note" rows="4" cols="40"
+        placeholder="Anything we should know? (allergies, level, preferred time...)"></textarea>
+    </div>
+<br><br><br>
+<div>
+ <label for="sub"> </label>
+<input type="submit" id="sub" name="submit">
+</div>
+
+    </form>
+
+
+
+<footer>© 2025 Horse Riding Club — All Rights Reserved</footer>
+</body>
+</html>
